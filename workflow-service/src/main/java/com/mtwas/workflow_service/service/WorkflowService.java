@@ -24,5 +24,6 @@ public interface WorkflowService {
 	List<WorkflowVersionResponse> getAllWorkflowVersions(Long workflowId);
 	
 	ValidationResult validateWorkflowVersion(Long workflowId, Integer vision);
+	
 }
 
